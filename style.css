@@ -1,0 +1,28 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+
+body {
+    margin: 0;
+    font-family: "JejuMyeongjo", serif;
+}
+
+div {
+    text-align: center;
+    
+}
+
+div.header {
+    background-color: lightgray;
+}
+
+div.list {
+    background-color: lightblue;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+}
+
+table {
+    margin:auto;
+}
