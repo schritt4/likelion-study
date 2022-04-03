@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junho, Jang</title>
+    <link rel="stylesheet" href="./aboutme.css">
+</head>
+<body>
+    <header>
+        <div style="display:flex; align-items:center">
+            <img style="width:40px; height:40px;" src="logo.png">
+            <h1 style="padding-top:5px; margin-left:5px">About me</h1>
+        </div>
+        
+    </header>
+    <main>
+        <img src="photo.jpg" width="120px">
+        <h1>장준호(Junho, Jang)</h1>
+        <div>
+            <p style="font-size: 20px; font-weight:bold">&#129409; Backend 및 ML Engineer</p>
+            <p>Backend Engineer로 시작해서 ML Engineer로 나아가기를 꿈꾸는, 열정 가득한 개발자입니다.</p> 
+        </div>
+        <div style="display:flex; justify-content:space-between">
+            <div style="width:300px">
+                <p style="font-size:20px; font-weight:bold">&#128260; Contact</p><hr>
+                <p>&#128421;<strong>Email:</strong> wkdwnsgh741@yonsei.ac.kr</p>
+                <p>&#128450;<strong>Github:</strong> https://github.com/Junho960913</p>
+                <p>&#128221;<strong>Blog:</strong> https://junho960913.github.io</p>
+            </div>
+            <div style="width:300px">
+                <p style="font-size:20px; font-weight:bold">&#127911; Play list</p><hr>
+                <ul style="padding-left:12px">
+                    <li>
+                        GANADARA - Jay Park(feat.IU)
+                        <input style="font-size:10px; margin:0px" type="button" onclick="audio1.play();" value="▶︎">
+                        <input style="font-size:10px; margin:0px" type="button" onclick="audio1.pause();" value="❚❚">
+                    </li>
+                    <li>
+                        The Truth is - Jay Park
+                        <input style="font-size:10px; margin:0px" type="button" onclick="audio2.play();" value="▶︎">
+                        <input style="font-size:10px; margin:0px" type="button" onclick="audio2.pause();" value="❚❚">
+                    </li>
+                    <li>
+                        Peaches - Justin Bieber
+                        <input style="font-size:10px; margin:0px" type="button" onclick="audio3.play();" value="▶︎">
+                        <input style="font-size:10px; margin:0px" type="button" onclick="audio3.pause();" value="❚❚">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div style="display:flex; justify-content:space-between">
+            <div style="width:300px">
+                <p style="font-size:20px; font-weight:bold">&#128296; Languages</p><hr>
+                <ul style="padding-left:12px">
+                    <li>Python(Pytorch, Django)</li>
+                    <li>C/C++</li>
+                </ul>
+            </div>
+            <div style="width:300px">
+                <p style="font-size:20px; font-weight:bold">&#128377; Likes</p><hr>
+                <ul style="padding-left:12px">
+                    <li>테니스 치기</li>
+                    <li>맛난거 먹기</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <p style="font-size:20px; font-weight:bold">&#128483; 하고 싶은 말</p><hr>
+            <p>모두들 만나서 반갑습니다. 앞으로 더욱 친해지길 바라요!!ㅎㅎ</p>
+        </div>
+       
+    </main>
+
+
+    <script>
+        var audio1 = new Audio('audio1.mp3');
+        var audio2 = new Audio('audio2.mp3');
+        var audio3 = new Audio('audio3.mp3');
+    </script>
+    
+</body>
+</html>
